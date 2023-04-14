@@ -1,0 +1,30 @@
+@media screen and (max-width: 1200px) {
+  .projects__github {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .project__github {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .content__main {
+    display: block;
+  }
+
+  .section__profile,
+  .section__links,
+  .section__technology,
+  .section__experience,
+  .section__education {
+    width: 100%;
+  }
+
+  .project__github {
+    width: 100%;
+  }
+}
